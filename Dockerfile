@@ -1,5 +1,4 @@
 FROM debian:stretch
-MAINTAINER Aexea Carpentry
 
 RUN apt-get update && apt-get install -y openjdk-8-jre-headless binutils mongodb-server jsvc unzip
 RUN mkdir -p /opt
